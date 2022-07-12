@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "dreiki-webground",
+  "private_key_id": "e48b6eec3bea505e1d1e79cc61de5fcdaa1022d9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCqQdn3uPh6gv9u\nsn/CrVqkTu6O9jHsfXDIZOVX5nknOsoiYkp+NQ9Cdw4joeZGL7NyP96KHeQw0Ocw\nvoLA6VCFWeG+k29ekb0ol9WP3Z0VoDuYpyCY7/7QAAhdlSRAZsuQMwzDVIYGDnEO\nXVn/6cHgNR0IpN3TdI6VWUZENCnQKdLNf20cfVwIfQADjgcN3dfDMT2j3OYBnYIE\nZZJr5e2RntqljpW0CfGeRBYVcKIbmBn/U9Em8spAnsyhnbFdYyKKWtfwF/8gN7JJ\ncAlsSbYaGDblYnku5ftur2C+0m4ORyetQ3HFVhgr2D+ZfUzJ4rRzFfrVYluXz49n\nWVIjJUzDAgMBAAECggEAUp17oAoggIo6WkPBXPzzg9FNTw/F7+R6qrLS2tFaLqAH\nX6HkVdN3YSAWO1IfRCV3ZNP7L3gLt2hXFr8LAYL1cI/Jy8kM/I2phR4QIiw+QjUr\nVgqa9btXISUy6f4pxhpbYtByvAGyuxOc5oSD3HtYeWwsd3pQrX/chDn6r7PEKl6m\nUF0aAVhqW7ev486Cn7DJTvYPJNq2fAys9N1uvLVQgqDbqDS21YDQi7pnVkbj5E7W\nZiUISJw5rZkeGnoTUUPCMCQ2JodzZ4Tz+Li0GbPYj6zPnMh4ya5iqBujjHGlXbaL\nQGsAK3E/F05HS7WPQLi8C1ykRweWgcmD1XJXnFjFCQKBgQDYO5F2a9uxU6mSLcuq\nR9Zhrqf43g2QHzxCSZaOqysGEUU43Luf0ZAAU3MofT4A/m8PNfPOyk9Q9BN87MW3\nVek5JJQN4Yt5o2CfeFGWduYKkBTS9KgamZANbGk3Xo6q70OdyPRXAU0tzg63fmTb\n6qNErHNLxOCyg3Av+lSllt9XnQKBgQDJkbeGsaR2a43KhwjSNMtwo/HxV7G7kQhg\nT+Bl37jwNkU/NgEJ6VZ7TFJnnrNM2CIa96a/7XaPafgDhA8QnWyRsWVEu9qVWsT3\nB9qaxVjVIzwwdqXs/ukrsUm/JZH0NzBahoxDoeIT5GW67xxxLPqy8/GZ++hPftet\nCWvmRPZ33wKBgQCcHvY5wEpQ0A0AxBvmiBObV5VjtD+qrUK+wY7411ErAlEuawD0\ntUP5WEcvFq4r3YimPNgZmCyIUJG5guKGKntHjMdw9kXTv0hGG4Mc1h/lxH2kiozN\nF87QQlP9bEIp3LK/O5ZfM0tcJQivJ4z+03yqWrCsJivt98SKf32aSUJcaQKBgEyn\nkK61gcDTGCIMBkvCbheREWJhoiKdfhz6Y3D6ip83VFA8nlqBlTTginoDfVZc32N4\nCL72dF8Hwpy7rOr5ox8o4kUoV3DzCvKS1wyCvkyX0LzxchpVuqC2FECP7hh8oHPc\ntRzHRG2iLxnO8vcLTu+dG6UeinMo3qZcbd8tHLnrAoGAIEKyCxBgfufPiDjEnSgq\nfEqmnhhva4VwbQws2t/OdORP8DsXK0BAXHDMlaDIkqPMHPAcpYYzd6HbK2S31WtJ\nLgVqiBLhMNHg7zednnel0Sqohickz3EdUEPzIWZSLcYDshPlYfqi98iaF8VufQBb\n9Ws9KkOCpWGTcNjZViDSatQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firestore-test@dreiki-webground.iam.gserviceaccount.com",
+  "client_id": "112766918742943281571",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firestore-test%40dreiki-webground.iam.gserviceaccount.com"
+}
