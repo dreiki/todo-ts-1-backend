@@ -1,1 +1,0 @@
-export GOOGLE_APPLICATION_CREDENTIALS = '/home/denny/react-test/react-todo-back/dreiki-webground-e48b6eec3bea.json'

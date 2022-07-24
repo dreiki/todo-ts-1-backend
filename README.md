@@ -1,1 +1,1 @@
-nodejs app + mongodb driver for Todo App Backend
+nodejs app + mongodb/firestore driver for Todo App Backend

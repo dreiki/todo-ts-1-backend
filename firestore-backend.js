@@ -11,10 +11,10 @@ app.use(express.json());
 
 const db = new Firestore({
   projectId: 'dreiki-webground',
-  keyFilename: '/home/denny/react-test/react-todo-back/dreiki-webground-e48b6eec3bea.json',
+  keyFilename: process.env.GCP_SERVICE_ACC,
 });
 
-async function getdatafirestore(username='dennyrizram') {
+async function getDataFirestore(username='dennyrizram') {
   dbresponsedata = {'data':[],'date':''}
   const snapshot = await db.collection('todo-items').doc(username).collection('data').get();
   snapshot.forEach((doc) => {
@@ -24,7 +24,7 @@ async function getdatafirestore(username='dennyrizram') {
   console.log(dbresponsedata)
 }
 
-async function deletedatafirestore(username='dennyrizram') {
+async function deleteDataFirestore(username='dennyrizram') {
   const snapshot  = await db.collection('todo-items').doc(username).collection('data').get();
   const batchSize = snapshot.size
   console.log(batchSize)
@@ -40,7 +40,7 @@ async function deletedatafirestore(username='dennyrizram') {
   await batch.commit();
 }
 
-async function updatedatafirestore(username,date,data) {
+async function updateDataFirestore(username,date,data) {
   const newdate = {'date':date}
   await db.collection('todo-items').doc(username).set(newdate)
   if (data.length > 0){
@@ -53,14 +53,14 @@ async function updatedatafirestore(username,date,data) {
 app.post('/get', async (req, res) => {
   console.log("NEW GET REQUEST")
   console.log(req.body.user)
-  await getdatafirestore(req.body.user).catch((d)=>{console.error(d)})
+  await getDataFirestore(req.body.user).catch((d)=>{console.error(d)})
   res.send(dbresponsedata)
 });
 
 app.post('/update', async (req, res) => {
   console.log("NEW UPDATE REQUEST")
   console.log(req.body)
-  await deletedatafirestore(req.body.user).then(()=> updatedatafirestore(req.body.user,req.body.date,req.body.data)).catch((d)=>{console.error(d)})
+  await deleteDataFirestore(req.body.user).then(()=> updateDataFirestore(req.body.user,req.body.date,req.body.data)).catch((d)=>{console.error(d)})
   res.send({"status":"Done"})
 });
 

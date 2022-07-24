@@ -1,12 +1,12 @@
 {
   "name": "react-todo-back",
   "version": "1.0.0",
-  "description": "nodejs app + mongodb driver for Todo App",
-  "main": "index.js",
+  "description": "nodejs app + mongodb/firestore for Todo App",
+  "main": "firestore-backend.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev-mongo": "nodemon server.js",
-    "dev-firestore": "nodemon index.js"
+    "dev-firestore": "nodemon firestore-backend.js"
   },
   "author": "Denny",
   "license": "ISC",
